@@ -1,0 +1,102 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple:#F9F6FF;
+  --white:#ffffff;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C8C8C8;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #C8C8C8;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #C8C8C8;
+}
+
+.handle-option{
+  color: #C8C8C8 !important;
+}
+
+.per-det-head{
+  font-size: 50px;
+  color: var(--purple);
+  font-weight: bold;
+  text-align: center;
+}
+
+.para-per-det{
+  color: var(--purple);
+  text-align: center;
+}
+
+.per-det-main{
+  border-radius: 10px;
+}
+
+.per-det-label{
+  color: #707070;
+}
+
+.per-det-input{
+  color: #000 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:black !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black !important;
+}
+
+.per-det-btn{
+  color: #fff !important;
+  background-color: #ffb44a !important;
+  font-weight: bold !important;
+}
+
+.per-det-btn:hover{
+  background-color: #f6a22d !important;
+}
+
+.per-det-btn:focus{
+  background-color: #f6a22d !important;
+}
+
+.per-det-btn:active{
+  background-color: #f6a22d !important;
+}
+
+.inputs {
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: #00f;
+  z-index: 999;
+  position: absolute;
+}
+
+input[type="email"].big-dog::-webkit-input-placeholder {
+  color: orange;
+}
+
+/* .css-1rhbuit-multiValue div{
+  display: inline-block !important;
+} */
+
+.hjk .css-1rhbuit-multiValue div {
+  display: none !important;
+}

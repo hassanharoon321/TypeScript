@@ -1,0 +1,19 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C8C8C8;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #C8C8C8;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #C8C8C8;
+}

@@ -1,0 +1,47 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple:#F9F6FF;
+  --white:#ffffff;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C8C8C8;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #C8C8C8;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #C8C8C8;
+}
+
+.headline-head{
+  font-weight: bold;
+  color: var(--purple);
+  font-size: 50px;
+  text-align: center;
+}
+
+.headline-para{
+  color: var(--purple);
+  text-align: center;
+}
+
+.head-main-div{
+  border-radius: 10px;
+}
+
+.head-text-area{
+  color: #000
+}
+
+.headline-main-btn{
+  color: #fff !important;
+  background-color: #ffb44a !important;
+  font-weight: bold !important;
+}
