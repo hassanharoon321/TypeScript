@@ -1,0 +1,44 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+}
+
+.color-of-reg {
+  background-color: #865ddd;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.text-of-nav-cand {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .btn-of-main-div-cand {
+    max-width: 25%;
+  }
+ 
+}
+@media screen and (min-width: 0px) and (max-width: 712px) {
+  .ReactModal__Content{
+    width: 345px !important;
+  }
+}
+
+
+
+
+
+/* .nav-link-tag{
+  color: var(--purple) !important;
+  text-decoration: underline;
+} */
+
+.text_gray1{
+  background-color: orange !important;
+}
+.text_gray2{
+  background-color: blue !important;
+}

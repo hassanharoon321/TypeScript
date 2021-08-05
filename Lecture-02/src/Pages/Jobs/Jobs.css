@@ -1,0 +1,11 @@
+.bg_img-jobs {
+  background-image: url(../../Assests/jobs444.webp);
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

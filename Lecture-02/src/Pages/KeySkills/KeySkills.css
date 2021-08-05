@@ -1,0 +1,87 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c8c8c8;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c8c8c8;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c8c8c8;
+}
+
+.key-skill-head {
+  font-size: 50px;
+  color: var(--purple);
+  font-weight: bold;
+  text-align: center;
+}
+
+.key-skill-para {
+  color: var(--purple);
+  text-align: center;
+}
+
+.key-main-div {
+  border-radius: 10px;
+}
+
+.key-input {
+  color: var(--light-grey);
+}
+
+.key-hr {
+  border: 1px solid var(--light-grey);
+}
+
+.sel-key-skill {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.btn-color-key {
+  color: var(--grey);
+  background-color: var(--light-purple);
+  font-weight: bold;
+}
+
+.key-sub-btn {
+  color: #fff !important;
+  background-color: #ffb44a !important;
+  font-weight: bold !important;
+}
+
+.key-sub-btn:hover {
+  background-color: #f6a22d !important;
+}
+
+.key-sub-btn:focus {
+  background-color: #f6a22d !important;
+}
+
+.key-sub-btn:active {
+  background-color: #f6a22d !important;
+}
+.hideValue .css-1rhbuit-multiValue div {
+  display: none !important;
+}
+.hjk .css-1rhbuit-multiValue div {
+  display: none !important;
+}
+
+.css-1hb7zxy-IndicatorsContainer{
+  display: none !important;
+}

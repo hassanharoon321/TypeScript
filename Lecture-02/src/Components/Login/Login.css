@@ -1,0 +1,53 @@
+:root {
+  --purple: #865ddd;
+  --yellow: #ffb44a;
+  --grey: #707070;
+  --light-grey: #c8c8c8;
+  --light-purple: #f9f6ff;
+  --white: #ffffff;
+}
+
+.login-head{
+  color: #865ddd;
+  font-weight: bold;
+  text-align: center;
+}
+
+#login-inp{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #707070;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: var(--light-grey);
+  font-size: 14px;
+  /* margin-bottom: 10px; */
+}
+
+.label-color-login{
+  color: #707070;
+}
+
+.forget-pass-login{
+  color: #865ddd;
+}
+
+.btn-login {
+  color: #fff !important;
+  background-color: #ffb44a !important;
+  font-weight: bold !important;
+}
+
+.btn-login:hover {
+  background-color: #f6a22d !important;
+}
+
+.btn-login:focus {
+  background-color: #f6a22d !important;
+}
+
+.btn-login:active {
+  background-color: #f6a22d !important;
+}
